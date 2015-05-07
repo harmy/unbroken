@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "unbroken",
+  "version": "0.1.0",
+  "description": "unbroken extension.",
+  "author": "harmy",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["webRequest", "webRequestBlocking", "http://*/*", "https://*/*"]
+}
